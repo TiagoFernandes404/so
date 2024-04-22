@@ -1,0 +1,16 @@
+    
+    cliente
+    
+    -Função para Enviar Solicitação de Execução de Tarefa: Implemente uma função que o cliente possa chamar para enviar uma solicitação ao servidor para executar uma tarefa. Essa função deve enviar os detalhes da tarefa (tempo estimado, programa a ser executado, argumentos) para o servidor.
+
+  - Função para Consultar Status das Tarefas: Implemente uma função que o cliente possa chamar para consultar o status das tarefas em execução, em espera e terminadas. Essa função deve enviar uma solicitação ao servidor e aguardar a resposta.
+
+-   Processamento de Respostas do Servidor: Depois de enviar uma solicitação ao servidor, o cliente precisa ser capaz de receber e processar a resposta do servidor. Isso pode incluir receber um identificador único para a tarefa ou obter informações sobre as tarefas em execução, em espera e terminadas.
+
+    Lógica de Tratamento de Erros: Adicione lógica para lidar com possíveis erros durante a comunicação com o servidor, como falha ao abrir ou escrever nos pipes, e imprima mensagens de erro apropriadas.
+
+    Interface de Linha de Comando: Implemente uma interface de linha de comando para permitir que os usuários interajam com o cliente e solicitem a execução de tarefas ou consultem o status das tarefas.
+
+    Liberação de Memória: Certifique-se de liberar a memória alocada dinamicamente, como os argumentos separados na função str_to_args.
+
+
